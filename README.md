@@ -19,7 +19,7 @@ Please clone the project to your local directory.
 
 ```bash
 # Clone the repository
-git clone [https://github.com/username/project.git](https://github.com/kiranmk1000/bmuse_scrapper_app.git)
+git clone https://github.com/kiranmk1000/bmuse_scrapper_app.git
 ```
 Create a new database and configure it inside config/database.php and .env file. Run the below artisan command.
 

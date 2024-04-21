@@ -20,10 +20,12 @@ Please clone the project to your local directory.
 ```bash
 git clone https://github.com/kiranmk1000/bmuse_scrapper_app.git
 ```
-Create a new database and configure it inside config/database.php and .env file. Run the below artisan command. Open the terminal and run the migration to generate database table.
+Create a new database and configure it inside config/database.php and .env file. Run the below artisan command. 
+Open command prompt and run the following commands.
 
 ```bash
 cd bmuse_scrapper_app
+composer install
 php artisan migrate
 ```
 ## Usage
@@ -31,6 +33,10 @@ php artisan migrate
 Run the following artisan command to scrape data and save to database.
 ```
 php artisan scrape:data
+```
+Run the following command to run the application
+```
+php artisan serve
 ```
 Open Postman, run the GET request below to view the scrapped data along with pagination. 
 ```

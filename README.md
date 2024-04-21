@@ -23,7 +23,7 @@ git clone https://github.com/kiranmk1000/bmuse_scrapper_app.git
 Create a new database and configure it inside config/database.php and .env file. Run the below artisan command. Open the terminal and run the migration to generate database table.
 
 ```bash
-cd directory-name
+cd bmuse_scrapper_app
 php artisan migrate
 ```
 ## Usage

@@ -18,13 +18,11 @@ This will scrape the data from [this](https://jameelcast.pinecast.co/) website. 
 Please clone the project to your local directory.
 
 ```bash
-# Clone the repository
 git clone https://github.com/kiranmk1000/bmuse_scrapper_app.git
 ```
-Create a new database and configure it inside config/database.php and .env file. Run the below artisan command.
+Create a new database and configure it inside config/database.php and .env file. Run the below artisan command. Open the terminal and run the migration to generate database table.
 
 ```bash
-# Open the terminal and run the migration to generate database table.
 cd directory-name
 php artisan migrate
 ```

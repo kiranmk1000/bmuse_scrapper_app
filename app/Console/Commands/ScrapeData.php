@@ -32,6 +32,10 @@ class ScrapeData extends Command
     public function handle()
     {
         $url = 'https://jameelcast.pinecast.co/';
+
+        //Flush existing data from table before scrapping.
+        Scrape::truncate();
+        
         $client = new Client();
         $response = $client->request('GET', $url);
         $htmlContent = $response->getBody()->getContents();

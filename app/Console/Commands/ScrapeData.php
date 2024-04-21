@@ -45,8 +45,6 @@ class ScrapeData extends Command
             return $_this->getNodeContent($node, $styleContent);
         });
 
-        //echo '<pre>'; print_r($data); 
-
         // Insert scrape data to databse table.
         try {
             for ($i=0; $i < count($data[0]['titles']); $i++) {
